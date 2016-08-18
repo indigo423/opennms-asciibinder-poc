@@ -1,0 +1,31 @@
+
+// Allow GitHub image rendering
+:imagesdir: images
+
+When networks are larger and contain devices of different priority, it becomes interesting to show at a glance how the "whole system" is working.
+The surveillance view aims to do that. By using categories, you can define a matrix which allows to aggregate monitoring results.
+Imagine you have 10 servers with 10 internet connections and some 5 PCs with DSL lines:
+
+[options="header, autowidth"]
+|===
+|                    | Servers | Internet Connections
+| Super important    | 1 of 10 | 0 of 10
+| Slightly important | 0 of 10 | 0 of 10
+| Vanity             | 4 of 10 | 0 of 10
+|===
+
+The whole idea is to give somebody at a glance a hint on where the trouble is.
+The matrix-type of display allows a significantly higher aggregation than the simple list.
+In addition, the surveillance view shows nodes rather than services - an important tidbit of information when you look at categories.
+At a glance, you want to know how many of my servers have an issue rather than how many services in this category have an issue.
+
+.Example of a configured _Surveillance View_
+image::01_surveillance-view.png[]
+
+The visual indication for outages in the surveillance view cells is defined as the following:
+
+* No services down: green as normal
+* One (1) service down: yellow as warning
+* More than one (1) services down: red as critical
+
+This _Surveillance View_ model also builds the foundation of the <<user-guide-dashboard, Dashboard View>>.

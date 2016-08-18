@@ -1,0 +1,9 @@
+/* Make sure included images have 100% width */
+
+.image img {
+    width: 100%;
+}
+
+.content img {
+    width: 100%;
+}

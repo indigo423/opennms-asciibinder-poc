@@ -1,0 +1,21 @@
+---
+opennms-horizon-docs:
+  name: OpenNMS Horizon
+  author: Horizon Documentation Project <opennms-docs@lists.opennms.org>
+  site: community
+  site_name: OpenNMS Horizon Documentation
+  site_url: http://docs.opennms.org
+  branches:
+    master:
+      name: Latest
+      dir: latest
+opennms-meridian-docs:
+  name: OpenNMS Meridian
+  author: Meridian Documentation Project <opennms-docs@lists.opennms.org>
+  site: commercial
+  site_name: OpenNMS Meridian Documentation
+  site_url: http://docs.opennms.com
+  branches:
+    master:
+      name: Latest
+      dir: latest

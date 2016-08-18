@@ -1,5 +1,5 @@
 
-:imagesdir: ../../images
+:imagesdir: images
 
 _{product-title}_ creates an _Alarm_ for issues in the network.
 Working with a few people in a team, it is helpful to share information about a current _Alarm_.
